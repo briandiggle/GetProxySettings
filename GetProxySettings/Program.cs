@@ -17,7 +17,7 @@ namespace GetProxySettings
 
             Uri proxyAddress = webProxy.Get Proxy(requestaddress);
 
-            Console.WriteLine(proxyAddress.AbsoluteUri);
+            Console.WriteLine("The proxy address is " + proxyAddress.AbsoluteUri);
 
             Console.ReadKey();
         }
