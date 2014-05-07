@@ -15,7 +15,7 @@ namespace GetProxySettings
 
             Uri requestaddress = new Uri("https://github.com");
 
-            Uri proxyAddress = webProxy.Get Proxy(requestaddress);
+            Uri proxyAddress = webProxy.GetProxy(requestaddress);
 
             Console.WriteLine("The proxy address is " + proxyAddress.AbsoluteUri);
 
